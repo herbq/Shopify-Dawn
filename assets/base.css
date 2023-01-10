@@ -2241,8 +2241,7 @@ input[type="checkbox"] {
 
 /* section-header */
 #shopify-section-header {
-  background-color: red;
-  color: red;
+  background-color: transparent;
   margin-bottom: -115px;
   z-index: 3;
 }
@@ -2278,6 +2277,7 @@ input[type="checkbox"] {
 }
 
 .header {
+  background-color: transparent;
   display: grid;
   grid-template-areas: "left-icon heading icons";
   grid-template-columns: 1fr 2fr 1fr;
